@@ -16,4 +16,8 @@ def char_count(book):
         counts[i] = counts.get(i, 0) + 1
     return counts
     
-main()
+def dic_sort(x):
+    b = dict(sorted(x.items(), key=lambda item: item[1], reverse=True))
+    return b
+    
+#main()
